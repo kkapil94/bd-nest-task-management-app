@@ -4,7 +4,7 @@ import { GetTaskFilerDto } from './DTO/getTaskFilter.dto';
 import { UpdateTaskStatusDto } from './DTO/updateTaskStatus.dto';
 import { TaskRepository } from './task.repository';
 import { Task } from './task.entity';
-import { User } from 'src/auth/user.entity';
+import { User } from '../auth/user.entity';
 
 @Injectable()
 export class TasksService {
